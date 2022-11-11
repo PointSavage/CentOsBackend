@@ -4,5 +4,26 @@
 @tailwind utilities;
 
 @layer utilities {
+  .green-500 { color: var(--green-500); }
+  .red-500 { color: var(--red-500); }
+  .blue-900 { color: var(--blue-900); }
+  .gray-700 { color: var(--gray-700); }
+  .yellow-500 { color: var(--yellow-500); }
+  .yellow-100 { color: var(--yellow-100) }
+  .bg-green-500 { background-color: var(--green-500); }
+  .bg-red-500 { background-color: var(--red-500); }
+  .bg-blue-900 { background-color: var(--blue-900); }
+  .bg-gray-700 { background-color: var(--gray-700); }
+  .bg-yellow-500 { background-color: var(--yellow-500); }
+  .bg-yellow-100 { background-color: var(--yellow-100); }
+}
 
+
+:root {
+  --green-500: #126936;
+  --red-500: #FF0F1F;
+  --blue-900: #000E14;
+  --gray-700: #3C4143;
+  --yellow-500: #FFF500;
+  --yellow-100: #FFFEDA;
 }
